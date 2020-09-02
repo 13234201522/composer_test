@@ -1,6 +1,6 @@
 {
     "name": "bridge-yj/demo",
-    "description": "a test demo",
+    "description": "a test Demo",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Demo\\": "src/Demo"
+            "bridge\\": "demo"
         }
     }
 }
