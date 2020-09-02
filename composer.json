@@ -1,0 +1,21 @@
+{
+    "name": "bridge-yj/demo",
+    "description": "a test demo",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "杨金桥",
+            "email": "1300786798@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/Demo"
+        }
+    }
+}
