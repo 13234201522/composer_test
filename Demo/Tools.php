@@ -10,7 +10,7 @@ class Tools
     {
     }
 
-    public static function Hello()
+    public function hello()
     {
         echo "hello world";
     }
