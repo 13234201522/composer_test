@@ -17,5 +17,10 @@
         "psr-4": {
             "bridge\\": "Demo"
         }
+    },
+    "extra": {
+        "installer-paths": {
+            "demo_tp/database/migrations/{$name}": ["vendor/package"]
+        }
     }
 }
